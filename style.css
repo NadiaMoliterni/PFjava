@@ -1,0 +1,15 @@
+#contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#carrito{
+    border: 10px solid pink;
+    width: 700px;
+    height: 400px;
+} 
+
+.oculto{
+    display: none;
+}
