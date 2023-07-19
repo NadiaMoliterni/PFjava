@@ -13,3 +13,13 @@
 .oculto{
     display: none;
 }
+
+.btn-violet{
+    background-color: blueviolet;
+    color: white;
+}
+
+.btn-pink{
+    background-color: rgb(238, 78, 247);
+    color: antiquewhite;
+}
