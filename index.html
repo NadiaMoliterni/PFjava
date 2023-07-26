@@ -7,39 +7,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Moliterni - Entrega Final</title>
 </head>
 
-<body id="miBody">
-    <h1>Mate Moli</h1>
-    <p>Bienvenid@ </p>
+<body>
+    <header>
+        <img src="imagenes/header.webp" alt="imagen principal de la pagina, un  mate">
+    </header>
 
-    <input id="input" placeholder="nombre de producto">
+    <div class="container">
+        <h1>
+            Mate Moli - Mates
+        </h1>
+        <p>
+            "Las cosas más lindas empiezan con unos mates"
+        </p>
+    </div>
+    <div>
+        <input id="input" placeholder="Nombre de producto">
+        <button type="button" class="btn btn-pink" id="botonBuscar">Buscar producto</button>
+        <button type="button" class="btn btn-pink filtro" value="promo">PROMO</button>
+        <button type="button" class="btn btn-pink filtro" value="shop">Shop</button>
+        <button type="button" class="btn btn-pink" id="botonCarrito">Ver productos seleccionados
+        </button>
+    </div>
 
-    <button type="button" class="btn btn-pink" id="botonBuscar">Buscar producto</button>
-    <button type="button" class="btn btn-violet filtro" value="promo">PROMO</button>
-    <button type="button" class="btn btn-violet filtro" value="shop">Shop</button>
-    <button type="button" class="btn btn-pink" id="botonCarrito">Ver productos seleccionados
-    </button>
-    <button type="button" class="btn btn-danger" id="botonBorrarCarrito">Borrar carrito
-    </button>
     <div id="productos">
         <div id="contenedor"></div>
     </div>
 
-    <div id="contenedor" class="oculto">
+    <div id="contenedorCarrito" class="oculto">
         <h2>Carrito de compras</h2>
         <div id="carrito"></div>
-        <button type="button" class="btn btn-success" id="finalizarCompra">Finalizar compra
-        </button>
 
+        <div class="botones">
+            <button type="button" class="btn btn-danger" id="botonBorrarCarrito">Borrar carrito</button>
+            <button type="button" class="btn btn-success" id="finalizarCompra">Finalizar compra</button>
+        </div>
     </div>
-    
 
-    <script src="script1.js"></script>
+    <footer class="contenedor">
+        <div class="d-flex">
+            <!-- links absolutos -->
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="/imagenes/iconos/facebook.jpg" alt="Seguinos en facebook" class="img-footer">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="/imagenes/iconos/twitter.jpg" alt="Seguinos en twitter" class="img-footer">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="/imagenes/iconos/instagram.jpg" alt="Seguinos en instagram" class="img-footer">
+            </a>
+        </div>
+        <div class="d-block">
+            <a href="#">Términos y condiciones</a>
+            <a href="#">Nosotros</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script.js"></script>
+
 </body>
 
 </html>

@@ -1,25 +1,130 @@
-#contenedor{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+* {
+  font-family: "Playfair Display", serif;
+  box-sizing: border-box;
 }
 
-#carrito{
-    border: 10px solid pink;
-    width: 700px;
-    height: 400px;
-} 
-
-.oculto{
-    display: none;
+html {
+  font-size: 62.5%;
 }
 
-.btn-violet{
-    background-color: blueviolet;
-    color: white;
+h1,
+h2,
+h3 {
+  color: #df98b2;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  text-align: center;
 }
 
-.btn-pink{
-    background-color: rgb(238, 78, 247);
-    color: antiquewhite;
+h1 {
+  font-size: 3rem;
+}
+
+h2,
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  color: black;
+  font-family: "Playfair Display", serif;
+  align-items: center;
+}
+
+header img {
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  background-color: rgb(192, 189, 189);
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  font-size: 1rem;
+}
+
+#contenedor {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#carrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid pink;
+  width: 700px;
+  max-height: 400px;
+  overflow-y: auto;
+  margin: 0 auto;
+}
+
+#carrito div {
+  margin-bottom: 10px;
+}
+
+#total {
+  text-align: right;
+  font-weight: bold;
+}
+
+#input {
+  font-size: 16px;
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  margin: 8px;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  padding: 10px 50px;
+  text-align: center;
+  overflow: auto;
+}
+
+.oculto {
+  display: none;
+}
+
+.btn-pink {
+  background-color: #df98b2;
+  color: antiquewhite;
+  border: solid;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  gap: 10px;
 }

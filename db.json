@@ -1,0 +1,100 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "mate argentina campeon 1",
+            "color": "azul",
+            "precio": 5000,
+            "rutaImagen": "mate-arg-campeon-azul.webp",
+            "categoria": "shop"
+        },
+        {
+            "id": 2,
+            "nombre": "mate mundi",
+            "color": "blanco",
+            "precio": 3500,
+            "rutaImagen": "mate-moli-XL-blanco.webp",
+            "categoria": "shop"
+        },
+        {
+            "id": 3,
+            "nombre": "mate moli borgoña",
+            "color": "rosa",
+            "precio": 2000,
+            "rutaImagen": "mate-moli-XL-borgoña.webp",
+            "categoria": "shop"
+        },
+        {
+            "id": 4,
+            "nombre": "mate moli",
+            "color": "blanco",
+            "precio": 2500,
+            "rutaImagen": "mate-moli-personalizado.webp",
+            "categoria": "shop"
+        },
+        {
+            "id": 5,
+            "nombre": "mate argentina campeon 2",
+            "color": "negro",
+            "precio": 5000,
+            "rutaImagen": "mate-arg-campeon-negro.webp",
+            "categoria": "shop"
+        },
+        {
+            "id": 6,
+            "nombre": "mate moli oliva",
+            "color": "verde",
+            "precio": 3200,
+            "rutaImagen": "mate-moli-verde-oliva.webp",
+            "categoria": "shop"
+        },
+        {
+            "id": 7,
+            "nombre": "combo 1",
+            "color": "azul",
+            "precio": 6000,
+            "rutaImagen": "cAzulconDorado.webp",
+            "categoria": "promo"
+        },
+        {
+            "id": 8,
+            "nombre": "combo 2",
+            "color": "azul",
+            "precio": 6000,
+            "rutaImagen": "cAzulconPlateado.webp",
+            "categoria": "promo"
+        },
+        {
+            "id": 9,
+            "nombre": "combo 3",
+            "color": "blanco",
+            "precio": 6000,
+            "rutaImagen": "cBlancoconDorado.webp",
+            "categoria": "promo"
+        },
+        {
+            "id": 10,
+            "nombre": "combo 4",
+            "color": "negro",
+            "precio": 6000,
+            "rutaImagen": "cNegroconNegro.webp",
+            "categoria": "promo"
+        },
+        {
+            "id": 11,
+            "nombre": "combo 5",
+            "color": "negro",
+            "precio": 6000,
+            "rutaImagen": "cNegroconPlateado.webp",
+            "categoria": "promo"
+        },
+        {
+            "id": 12,
+            "nombre": "combo 6",
+            "color": "oliva",
+            "precio": 6000,
+            "rutaImagen": "cOlivaconNegro.webp",
+            "categoria": "promo"
+        }
+    ]
+}
